@@ -17,9 +17,4 @@ Examples:
 				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
 				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
 				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
-				|prakash0| J5M3AD	|Sydney	 |Hotel Creek| Double	|			2			 |05/04/2021|06/04/2021| 2 | 2 |sand 		 |kumar		|18 kodambakkam|987654321123456789|AMEX					 |4					 |2022			|888|
+				

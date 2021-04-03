@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.util.concurrent.TimeUnit;
+
 import org.adactin.BaseClass;
 import org.login.elements.BookHotel;
 import org.login.elements.SearchHotelElements;
@@ -58,6 +60,7 @@ public class SearchPageSteps extends BaseClass{
 	@Then("User should click the book now button")
 	public void user_should_click_the_book_now_button() {
 		btnClick(bh.getBook_now());
+		driver.manage().timeouts().implicitlyWait(7,TimeUnit.SECONDS) ;
 		System.out.println(getAttributeText(bh.getOrderno()));
 	}
 

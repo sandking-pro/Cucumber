@@ -58,10 +58,13 @@ public class SearchPageSteps extends BaseClass{
 	}
 	
 	@Then("User should click the book now button")
-	public void user_should_click_the_book_now_button() {
+	public void user_should_click_the_book_now_button() throws InterruptedException {
 		btnClick(bh.getBook_now());
 		driver.manage().timeouts().implicitlyWait(7,TimeUnit.SECONDS) ;
-		System.out.println(getAttributeText(bh.getOrderno()));
+//		Thread.sleep(7000);
+		System.out.println("Order Id"+getAttributeText(bh.getOrderno()));
+		driver.quit();
+		
 	}
 
 

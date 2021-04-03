@@ -18,16 +18,15 @@ public class LoginPageSteps extends BaseClass {
 	public void user_is_on_the_AdactinHotelApp_login_page() {
 	   getDriver();
 	   launchUrl("http://adactinhotelapp.com/");
-	   
 	}
 
-	@When("User should enter username and password")
-	public void user_should_enter_username_and_password() {
+	@When("User should enter {string} and {string}")
+	public void user_should_enter_and(String user, String pass) {
 		lp = new LoginPageElements();
-	    enterText(lp.getTxtUsername(), "prakash0");
-	    enterText(lp.getTxtpassword(), "J5M3AD");
+	    enterText(lp.getTxtUsername(), user);
+	    enterText(lp.getTxtpassword(), pass);
 	}
-
+	
 	@When("User should click the login button")
 	public void user_should_click_the_login_button() {
 	    btnClick(lp.getBtnLogin());

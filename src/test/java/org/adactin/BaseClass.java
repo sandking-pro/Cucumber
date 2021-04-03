@@ -1,6 +1,8 @@
 package org.adactin;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
@@ -41,12 +43,25 @@ public class BaseClass {
 	public void screenShot(String data) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
-		File destFile = new File(System.getProperty("user.dir")+"\\target\\"+data+".png");
-		FileUtils.copyFile(srcFile, destFile); 
+		File destFile = new File(System.getProperty("user.dir") + "\\target\\" + data + ".png");
+		FileUtils.copyFile(srcFile, destFile);
 	}
-	
-	public void selectDropdown(WebElement dropdown,String text) {
+
+	public void selectDropdown(WebElement dropdown, String text, String by) {
 		Select sel = new Select(dropdown);
-		sel.selectByVisibleText(text);
+		if (by == "vt") {
+			sel.selectByVisibleText(text);
+		} else if (by == "val") {
+			sel.selectByValue(text);
+		} else {
+			int indx = Integer.parseInt(text);
+			sel.selectByIndex(indx);
+		}
 	}
+
+	public String getAttributeText(WebElement element) {
+		return element.getAttribute("value");
+	}
+
+		
 }
